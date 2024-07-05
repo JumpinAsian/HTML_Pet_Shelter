@@ -1,0 +1,163 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* NavBar-1 */
+
+h1 {
+    color: #FFF;
+    width: 60%;
+    font-size: 2.6rem;
+}
+
+h1,
+.heart {
+    padding-top: 40px;
+}
+
+.nav,
+.nav-position,
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #119B9D;
+}
+
+
+.nav-position,
+.nav-2-position {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    list-style-type: none;
+    width: 50%;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.nav-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-donate {
+    border-color: #9900FF;
+    background-color: #FFF;
+    color: #9900FF;
+    width: 100px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+/* NavBar-2 */
+
+.nav-2 {
+    background-color: #119B9D;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.nav-2-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-a {
+    width: 30px;
+}
+
+.btn {
+    width: 250px;
+    border-color: black;
+    box-shadow: 2px 2px black;
+    background-color: #9900FF;
+    color: #FFF;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.box {
+    border: 1px solid black;
+    height: 30px;
+}
+
+#box1 {
+    width: 90px;
+}
+
+#box2 {
+    width: 140px;
+}
+
+.center {
+    display: flex;
+}
+
+label {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.btn-find {
+    display: flex;
+    height: 30px;
+}
+
+/* main */
+
+.container {
+    margin: 0px auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #DDD;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+
+.icon-1,
+.text,
+.pet-count {
+    padding: 20px;
+}
+
+.icon-1 {
+    width: 120px;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+.btn-pet {
+    color: #FFF;
+    background-color: #17CFD1;
+    width: 180px;
+    height: 30px;
+    box-shadow: 4px 4px black;
+    font-size: 1.1rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.align-right {
+    text-align: right;
+    margin-bottom: 20px;
+}
